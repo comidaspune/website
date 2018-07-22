@@ -1,0 +1,48 @@
+.title 
+{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 90vh;
+    letter-spacing: 1px;
+}
+
+h1 {
+	background-image: url(http://bestanimations.com/Nature/Fire/lava-fire-animated-gif.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+    margin: 10px 0;
+    font-family:comidasFont;
+}
+@font-face {
+    font-family: comidasFont;
+    src: url('/assets/fonts/actionj.ttf');
+}
+ h2
+ {
+    color: #fff;
+    overflow: hidden; 
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
