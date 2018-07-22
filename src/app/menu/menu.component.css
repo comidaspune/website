@@ -6,3 +6,27 @@
   background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
   background-size: cover;
 }
+
+
+#search
+{
+    width:80%;
+}
+
+.parent
+{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item
+{
+ background:white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ width:320px;
+ height:370px; 
+ border:solid white;
+}
