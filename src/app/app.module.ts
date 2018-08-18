@@ -6,13 +6,15 @@ import {AppRoutingModule, routerComponents} from './app-routing/app-routing.modu
 
 import {MatCardModule} from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     routerComponents,
-    HomeComponent
+    HomeComponent,
+    ContactusComponent
 
   ],
   imports: [

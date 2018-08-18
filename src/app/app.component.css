@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+    padding:10px;
+}
+.contactUs
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+.contact_number
+{
+    display:flex;
+    flex-direction: column;
+    color:#9F0102;
+}
