@@ -2,15 +2,21 @@ a {
     text-decoration: none;
     padding:10px;
 }
-.contactUs
-{
-    display: flex;
-    justify-content: flex-end;
-    padding: 5px;
+.nav_row {
+    padding:10px;
 }
 .contact_number
 {
     display:flex;
-    flex-direction: column;
     color:#9F0102;
+}
+.comidas_nav
+{
+    padding-top:10px;
+}
+.comidas_nav a:hover {
+    background:#ffffff;
+}
+hr{
+    border: 1px solid white;
 }

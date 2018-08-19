@@ -1,81 +1,57 @@
-.comidas_button
-{
-   padding: 15px 32px;
-   text-align: center;  
-   font-size: 16px;
-   margin: 4px 2px;
-   cursor: pointer;
-   background-color:#9F0102; 
-   color: black; 
-   border-top: 2px solid #CC2200;
-   border-bottom: 2px solid #CC2200;
-   border-left:none;
-   border-right:none;
-   font-weight: 600;
-   animation: animateButton 4s;
-   animation-fill-mode: forwards;
-    
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
 }
 
- @keyframes animateButton {
-        from{
-            width: 200px;
-            letter-spacing: 0rem;
-        }
-        to{
-            width:300px;
-            letter-spacing: 0.1rem;
-        }
-        
-    }
-.title 
-{
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 90vh;
-    letter-spacing: 1px;
-    
+body{
+  background: #010322;
+  font-family: Arial;
 }
 
-h1 {
-	background-image: url(http://bestanimations.com/Nature/Fire/lava-fire-animated-gif.gif);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	font-size: 120px;
-    margin: 10px 0;
-    font-family:comidasFont;
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
 }
-@font-face {
-    font-family: comidasFont;
-    src: url('/assets/fonts/TooneyNoodleNF.ttf');
-}
- #quote
- {
-    color: #9F0102;
-    overflow: hidden; 
-    white-space: nowrap;
-    margin: 0 auto; 
-    letter-spacing: .15em;
-    animation: 
-      typing 5s steps(30 ),
-      blink-caret .5s step-end;
-  }
-  
-  @keyframes typing {
-    from { width: 0;
-        border-right: .15em solid #9F0102; }
 
-    to { 
-        width: 50%;
-        border-right:transparent; }
-  }
-  
-  @keyframes blink-caret {
-    from, to { border-color: #9F0102; }
-    50% { border-color: #9F0102 }
-  }
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}

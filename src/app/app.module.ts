@@ -7,6 +7,7 @@ import {AppRoutingModule, routerComponents} from './app-routing/app-routing.modu
 import {MatCardModule} from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { FeedbackComponent } from './feedback/feedback.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ContactusComponent } from './contactus/contactus.component';
     AppComponent,
     routerComponents,
     HomeComponent,
-    ContactusComponent
+    ContactusComponent,
+    FeedbackComponent
 
   ],
   imports: [
