@@ -12,7 +12,8 @@ a {
 }
 .comidas_nav
 {
-    padding-top:10px;
+    margin-top:20px;
+
 }
 .comidas_nav a:hover {
     background:#ffffff;
